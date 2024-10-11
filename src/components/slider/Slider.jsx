@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 import { Navigation } from "swiper/modules";
 
 function Slider({ slides, options }) {
-  console.log(options);
+  // console.log(options);
   return (
     <>
       <Swiper {...options}>{...slides}</Swiper>

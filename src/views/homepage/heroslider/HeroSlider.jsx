@@ -71,7 +71,7 @@ const HeroSlider = () => {
         heroSliderData.map((slider) => {
           return <ImageSlider key={slider.id} {...slider} />;
         })} */}
-      <ImageSlider slides={heroSliderData} />
+      <ImageSlider herosliderData={heroSliderData} />
       {/* <Swiper {...options}>
         <SwiperSlide>
           <img src="src/assets/images/homepage/homepage-banner1.jpg" alt="" className="w-100" />

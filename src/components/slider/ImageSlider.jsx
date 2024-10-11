@@ -7,8 +7,10 @@ import "swiper/css/pagination";
 // import required modules
 import { Navigation } from "swiper/modules";
 
-const ImageSlider = ({ slides }) => {
-  console.log(slides);
+const ImageSlider = ({ herosliderData, redeemSliderData }) => {
+  const slides = herosliderData || redeemSliderData;
+  console.log(herosliderData);
+  console.log(redeemSliderData);
 
   return (
     <>

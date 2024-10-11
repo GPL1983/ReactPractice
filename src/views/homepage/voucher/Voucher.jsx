@@ -40,7 +40,7 @@ function Voucher() {
   if (isError) {
     return <Error />;
   }
-  console.log(voucherData);
+  // console.log(voucherData);
 
   const options = {
     navigation: {
